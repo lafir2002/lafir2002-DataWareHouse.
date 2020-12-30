@@ -1,0 +1,55 @@
+_____________________________________________________________
+**********************  CREATE  *****************************
+_____________________________________________________________
+Congrats:Record Created successfully
+Oops!Unable to proceed due to key already exist,Please try with unique key
+Congrats:Record Created successfully
+Congrats:Record Created successfully
+Oops!Unable to proceed due to key length exceeded the limit(32chars)
+
+
+-------------------- AFTER WAIT ---------------------------
+Oops!Unable to proceed due to key already exist,Please try with unique key
+Oops!Unable to proceed due to key already exist,Please try with unique key
+Congrats:Record Created successfully
+Congrats:Record Created successfully
+
+
+
+
+_____________________________________________________________
+************************  READ  *****************************
+_____________________________________________________________
+{"Designation":"Software Developer","Qualification":"M.sc Computer Science","EmpId":"222","EmpName":"Mohamed Lafir Ali","Age":"21"}
+{"Qualification":"M.sc Computer Science","EmpId":"222","EmpName":"Mohamed Lafir Ali","Age":"21"}
+{"Qualification":"M.sc Computer Science","EmpId":"222","EmpName":"Mohamed Lafir Ali","Age":"21"}
+{"Qualification":"M.sc Computer Science","EmpId":"222","EmpName":"Mohamed Lafir Ali","Age":"21"}
+{"Designation":"Software Developer","Qualification":"M.sc Computer Science","EmpId":"222","EmpName":"Mohamed Lafir Ali","Age":"21"}
+{"Designation":"Software Developer","Qualification":"M.sc Computer Science","EmpId":"222","EmpName":"Mohamed Lafir Ali","Age":"21"}
+Oops!Unable to proceed due to key not found,Please enter valid key.
+Oops!Unable to proceed due to key not found,Please enter valid key.
+
+
+--------------------- AFTER WAIT --------------------------
+Oops!Unable to proceed due to key not found,Please enter valid key.
+Oops!Unable to proceed due to key not found,Please enter valid key.
+{"Qualification":"M.sc Computer Science","EmpId":"222","EmpName":"Mohamed Lafir Ali","Age":"21"}
+{"Designation":"Software Developer","Qualification":"M.sc Computer Science","EmpId":"222","EmpName":"Mohamed Lafir Ali","Age":"21"}
+{"Designation":"Software Developer","Qualification":"M.sc Computer Science","EmpId":"222","EmpName":"Mohamed Lafir Ali","Age":"21"}
+{"Designation":"Software Developer","Qualification":"M.sc Computer Science","EmpId":"222","EmpName":"Mohamed Lafir Ali","Age":"21"}
+Oops!Unable to proceed due to key not found,Please enter valid key.
+
+
+
+
+_____________________________________________________________
+**********************  DELETE  *****************************
+_____________________________________________________________
+Oops!Unable to proceed due to key not found,Please enter valid key.
+Oops!Unable to proceed due to key not found,Please enter valid key.
+Congrats:Record deleted successfully
+Congrats:Record deleted successfully
+Congrats:Record deleted successfully
+Oops!Unable to proceed due to key not found,Please enter valid key.
+Oops!Unable to proceed due to key not found,Please enter valid key.
+Oops!Unable to proceed due to key length exceeded the limit(32chars)

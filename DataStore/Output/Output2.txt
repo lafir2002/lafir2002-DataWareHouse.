@@ -1,0 +1,128 @@
+------------------------USER INPUT---------------------------
+ENTER YOUR FIRST NAME:
+Mohamed
+ENTER YOUR LAST NAME:
+Lafir
+ENTER YOUR QUALIFICATION:
+M.sc
+ENTER YOUR AGE:
+21
+_____________________________________________________________
+**********************  CREATE  *****************************
+_____________________________________________________________
+CREATE--T-->Enter Head Key1:
+1
+Congrats:Record Created successfully
+CREATE--->Enter Key2:
+2
+Congrats:Record Created successfully
+CREATE--T-->Enter Key3:
+3
+Congrats:Record Created successfully
+CREATE--->Enter Key4:
+4
+Congrats:Record Created successfully
+Enter the Comments Or Any Sentence--->Character Test1:
+All Is Well
+Congrats:Record Created successfully
+
+
+-------------------- AFTER WAIT ---------------------------
+ENTER YOUR YEARS OF EXPERIENCE:
+2
+
+
+
+AFTER WAIT--T-->CREATE-->KEY 1:
+1
+Congrats:Record Created successfully
+
+AFTER WAIT--> CREATE-->KEY 2:
+3
+Congrats:Record Created successfully
+
+AFTER WAIT--T-->CREATE-->KEY 3:
+5
+Congrats:Record Created successfully
+
+AFTER WAIT-->CREATE-->KEY 4:
+6
+Congrats:Record Created successfully
+
+
+ENTER YOUR OPTION:
+1:READ
+2:DELETE
+1
+_____________________________________________________________
+************************  READ  *****************************
+_____________________________________________________________
+READ--->key1:
+	
+3
+{"firstName":"Mohamed","lastName":"Lafir","Qualification":"M.sc","Age":"21","Experience:":"2"}
+
+READ--->key2:
+	
+6
+{"firstName":"Mohamed","lastName":"Lafir","Qualification":"M.sc","Age":"21","Experience:":"2"}
+
+READ--->key3:
+	
+2
+{"firstName":"Mohamed","lastName":"Lafir","Qualification":"M.sc","Age":"21"}
+
+READ--->key4:
+	
+4
+{"firstName":"Mohamed","lastName":"Lafir","Qualification":"M.sc","Age":"21"}
+
+Enter The Comments--->Character Test2:
+This sentence will wont come under limit
+Oops!Unable to proceed due to key length exceeded the limit(32chars)
+
+
+--------------------- AFTER WAIT --------------------------
+AFTER WAIT-->READ-->KEY 1:
+2
+{"firstName":"Mohamed","lastName":"Lafir","Qualification":"M.sc","Age":"21"}
+
+AFTER WAIT-->READ-->KEY 2:
+4
+{"firstName":"Mohamed","lastName":"Lafir","Qualification":"M.sc","Age":"21"}
+
+AFTER WAIT-->READ-->KEY 3:
+3
+{"firstName":"Mohamed","lastName":"Lafir","Qualification":"M.sc","Age":"21","Experience:":"2"}
+
+AFTER WAIT-->READ-->KEY 4:
+6
+{"firstName":"Mohamed","lastName":"Lafir","Qualification":"M.sc","Age":"21","Experience:":"2"}
+
+
+Want to continue with option y/n
+y
+ENTER YOUR OPTION:
+1:READ
+2:DELETE
+2
+_____________________________________________________________
+**********************  DELETE  *****************************
+_____________________________________________________________
+
+DELETE--->Enter the valid key1:
+2
+Congrats:Record deleted successfully
+
+DELETE--->Enter the valid key2:
+4
+Congrats:Record deleted successfully
+
+DELETE--->Enter the valid key3:
+5
+Oops!Unable to proceed due to key not found,Please enter valid key.
+
+DELETE--->Enter the valid key4:
+6
+Congrats:Record deleted successfully
+Want to continue with option y/n
